@@ -8,5 +8,6 @@ target 'PanModalDemo' do
   # Pods for PanModalDemo
 
   pod 'PanModal'
+  pod 'SnapKit'
 
 end

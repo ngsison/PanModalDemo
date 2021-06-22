@@ -6,14 +6,35 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
+    
+    private lazy var button: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitleColor(.label, for: .normal)
+        button.setTitle("Present bottom sheet", for: .normal)
+        button.addTarget(self, action: #selector(handleButtonTap), for: .touchUpInside)
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setUpViews()
     }
-
-
+    
+    @objc
+    private func handleButtonTap() {
+        print("handleButtonTap")
+    }
+    
+    private func setUpViews() {
+        
+        view.backgroundColor = .systemBackground
+        
+        view.addSubview(button)
+        button.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+        }
+    }
 }
-

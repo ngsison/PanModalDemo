@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @objc
     private func handleButtonTap() {
-        let bottomSheet = KQBottomSheet()
+        let bottomSheet = KQBottomSheet(scrollingEnabled: true)
         presentPanModal(bottomSheet)
     }
     

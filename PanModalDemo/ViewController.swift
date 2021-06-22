@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import PanModal
 
 class ViewController: UIViewController {
     
@@ -25,7 +26,8 @@ class ViewController: UIViewController {
     
     @objc
     private func handleButtonTap() {
-        print("handleButtonTap")
+        let bottomSheet = KQBottomSheet()
+        presentPanModal(bottomSheet)
     }
     
     private func setUpViews() {

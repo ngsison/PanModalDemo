@@ -80,30 +80,6 @@ class KQBottomSheet: UIViewController {
                 make.edges.equalToSuperview()
             }
         }
-        
-        // Sample Content
-        
-        let view1 = UIView()
-        view1.backgroundColor = .red
-        
-        let label = UILabel()
-        label.numberOfLines = 0
-        label.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        
-        let view2 = UIView()
-        view2.backgroundColor = .blue
-        
-        mainStackView.addArrangedSubview(view1)
-        mainStackView.addArrangedSubview(label)
-        mainStackView.addArrangedSubview(view2)
-        
-        view1.snp.makeConstraints { make in
-            make.height.equalTo(100)
-        }
-        
-        view2.snp.makeConstraints { make in
-            make.height.equalTo(100)
-        }
     }
 }
 

@@ -14,6 +14,7 @@
 		4336C74C268238E3005D0C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4336C74B268238E3005D0C09 /* Assets.xcassets */; };
 		4336C74F268238E3005D0C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4336C74D268238E3005D0C09 /* LaunchScreen.storyboard */; };
 		4336C75726823A6E005D0C09 /* KQBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336C75626823A6E005D0C09 /* KQBottomSheet.swift */; };
+		43CAD4922683868D00E17FD4 /* KQBottomSheetExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CAD4912683868D00E17FD4 /* KQBottomSheetExampleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4336C74E268238E3005D0C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4336C750268238E3005D0C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4336C75626823A6E005D0C09 /* KQBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KQBottomSheet.swift; sourceTree = "<group>"; };
+		43CAD4912683868D00E17FD4 /* KQBottomSheetExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KQBottomSheetExampleVC.swift; sourceTree = "<group>"; };
 		899E299468F9C7F0A6D0316E /* Pods-PanModalDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanModalDemo.release.xcconfig"; path = "Target Support Files/Pods-PanModalDemo/Pods-PanModalDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				4336C74D268238E3005D0C09 /* LaunchScreen.storyboard */,
 				4336C750268238E3005D0C09 /* Info.plist */,
 				4336C75626823A6E005D0C09 /* KQBottomSheet.swift */,
+				43CAD4912683868D00E17FD4 /* KQBottomSheetExampleVC.swift */,
 			);
 			path = PanModalDemo;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			files = (
 				4336C75726823A6E005D0C09 /* KQBottomSheet.swift in Sources */,
 				4336C747268238E2005D0C09 /* ViewController.swift in Sources */,
+				43CAD4922683868D00E17FD4 /* KQBottomSheetExampleVC.swift in Sources */,
 				4336C743268238E2005D0C09 /* AppDelegate.swift in Sources */,
 				4336C745268238E2005D0C09 /* SceneDelegate.swift in Sources */,
 			);
